@@ -30,9 +30,6 @@ export default function DashboardPage() {
   const [selectedSeasonId, setSelectedSeasonId] = useState<string>(data.seasons[data.seasons.length - 1]?.id || '');
   const [isUploadOpen, setIsUploadOpen] = useState<boolean>(false);
   const [isGoogleSheetsOpen, setIsGoogleSheetsOpen] = useState<boolean>(false);
-  const [googleSheetUrl, setGoogleSheetUrl] = useState<string>(
-    'https://docs.google.com/spreadsheets/d/1J4OYRAR1YQ0VrVUgJkxoFJNqVlKYkvEgXURLBsOpYH4/edit?usp=sharing'
-  );
 
   const handleSelectSeasonFromOverview = (seasonId: string) => {
     setSelectedSeasonId(seasonId);
@@ -161,8 +158,6 @@ export default function DashboardPage() {
       <GoogleSheetSyncModal
         isOpen={isGoogleSheetsOpen}
         onClose={() => setIsGoogleSheetsOpen(false)}
-        currentSheetUrl={googleSheetUrl}
-        onUrlChange={(url) => setGoogleSheetUrl(url)}
         onSyncSuccess={(newDataset) => {
           setData(newDataset);
         }}

@@ -11,7 +11,7 @@ import {
   Download, 
   Printer, 
   Layers,
-  FileSpreadsheet
+  RefreshCw
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -120,10 +120,10 @@ export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpen
             <button
               onClick={onOpenGoogleSheets}
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-emerald-600 hover:bg-emerald-500 text-white border border-emerald-400/50 transition-all shadow-md shadow-emerald-950/30 group"
-              title="Segerakkan data secara terus daripada Google Sheets"
+              title="Kemas kini data daripada pelayan awan terlindung"
             >
-              <FileSpreadsheet className="w-4 h-4 text-emerald-200 group-hover:rotate-12 transition-transform" />
-              <span>Google Sheets</span>
+              <RefreshCw className="w-4 h-4 text-emerald-200 group-hover:rotate-180 transition-transform duration-500" />
+              <span>Muat Semula</span>
               <span className="flex h-2 w-2 relative">
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>

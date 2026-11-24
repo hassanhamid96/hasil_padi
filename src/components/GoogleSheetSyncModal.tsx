@@ -3,31 +3,25 @@
 import React, { useState } from 'react';
 import { PadiDataset } from '@/types/padi';
 import { 
-  FileSpreadsheet, 
-  ExternalLink, 
+  ShieldCheck, 
   RefreshCw, 
   CheckCircle2, 
   AlertCircle, 
   X,
-  Link as LinkIcon
+  Lock
 } from 'lucide-react';
 
 interface GoogleSheetSyncModalProps {
   isOpen: boolean;
   onClose: () => void;
   onSyncSuccess: (newDataset: PadiDataset) => void;
-  currentSheetUrl: string;
-  onUrlChange: (url: string) => void;
 }
 
 export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
   isOpen,
   onClose,
   onSyncSuccess,
-  currentSheetUrl,
-  onUrlChange,
 }) => {
-  const [inputUrl, setInputUrl] = useState<string>(currentSheetUrl);
   const [isSyncing, setIsSyncing] = useState<boolean>(false);
   const [result, setResult] = useState<{ type: 'success' | 'error'; message: string; timestamp?: string } | null>(null);
 
@@ -43,22 +37,20 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
         headers: {
           'Content-Type': 'application/json',
         },
-        body: JSON.stringify({ url: inputUrl }),
       });
 
       const data = await res.json();
 
       if (!res.ok || !data.success) {
-        throw new Error(data.error || 'Gagal menyegerak dengan Google Sheets.');
+        throw new Error(data.error || 'Gagal memuat semula data.');
       }
 
-      onUrlChange(inputUrl);
       onSyncSuccess(data.dataset);
 
       setResult({
         type: 'success',
-        message: 'Data berjaya dimuat semula terus daripada Google Sheets!',
-        timestamp: new Date().toLocaleTimeString('ms-MY', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
+        message: 'Data lejar terkini berjaya dimuat semula daripada pangkalan awan terlindung!',
+        timestamp: data.timestamp || new Date().toLocaleTimeString('ms-MY', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
       });
     } catch (err: unknown) {
       const msg = err instanceof Error ? err.message : 'Ralat yang tidak diketahui.';
@@ -73,7 +65,7 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
 
   return (
     <div className="fixed inset-0 z-50 flex items-center justify-center p-4 bg-black/60 backdrop-blur-sm animate-in fade-in duration-200">
-      <div className="bg-white dark:bg-slate-900 rounded-2xl max-w-lg w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-800 relative">
+      <div className="bg-white dark:bg-slate-900 rounded-2xl max-w-md w-full p-6 shadow-2xl border border-slate-200 dark:border-slate-800 relative">
         <button
           onClick={onClose}
           className="absolute top-4 right-4 p-2 text-slate-400 hover:text-slate-600 dark:hover:text-white rounded-lg hover:bg-slate-100 dark:hover:bg-slate-800 transition-colors"
@@ -84,53 +76,44 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
         {/* Modal Header */}
         <div className="flex items-center gap-3">
           <div className="p-3 bg-emerald-500/10 text-emerald-600 rounded-xl">
-            <FileSpreadsheet className="w-6 h-6" />
+            <ShieldCheck className="w-6 h-6" />
           </div>
           <div>
             <h3 className="text-lg font-bold text-slate-900 dark:text-white">
-              Penyegerakan Google Sheets
+              Muat Semula Data Awan
             </h3>
             <p className="text-xs text-slate-500">
-              Sambungkan dashboard secara langsung kepada Google Sheets
+              Penyambungan Terlindung & Disulitkan
             </p>
           </div>
         </div>
 
-        {/* Google Sheet URL Input */}
+        {/* Security Status Box */}
         <div className="mt-5 space-y-4">
-          <div>
-            <label className="block text-xs font-semibold text-slate-700 dark:text-slate-300 mb-1.5 flex items-center gap-1.5">
-              <LinkIcon className="w-3.5 h-3.5 text-emerald-600" />
-              Pautan Google Sheets:
-            </label>
-            <input
-              type="text"
-              value={inputUrl}
-              onChange={(e) => setInputUrl(e.target.value)}
-              placeholder="https://docs.google.com/spreadsheets/d/..."
-              className="w-full text-xs font-mono p-3 rounded-xl border border-slate-300 dark:border-slate-700 bg-slate-50 dark:bg-slate-800 text-slate-900 dark:text-white focus:outline-none focus:ring-2 focus:ring-emerald-500"
-            />
+          <div className="p-4 rounded-xl bg-emerald-50/60 dark:bg-emerald-950/20 border border-emerald-200/80 dark:border-emerald-800/40 flex items-start gap-3">
+            <Lock className="w-5 h-5 text-emerald-600 shrink-0 mt-0.5" />
+            <div>
+              <h4 className="text-xs font-bold text-emerald-900 dark:text-emerald-200">
+                Akses Terhad & Selamat
+              </h4>
+              <p className="text-[11px] text-emerald-800/80 dark:text-emerald-300/80 mt-0.5 leading-relaxed">
+                Pautan sumber dan identiti lejar Google Sheet disimpan secara rahsia di sebelah pelayan untuk mengelakkan sebarang capaian atau pencerobohan tanpa kebenaran.
+              </p>
+            </div>
           </div>
 
-          <div className="flex items-center justify-between gap-3 pt-1">
-            <a
-              href={inputUrl}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-flex items-center gap-1.5 text-xs font-semibold text-emerald-600 dark:text-emerald-400 hover:underline"
-            >
-              <span>Buka Google Sheets di tab baru</span>
-              <ExternalLink className="w-3.5 h-3.5" />
-            </a>
-
+          <div className="text-center py-2">
             <button
               onClick={handleSync}
               disabled={isSyncing}
-              className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white disabled:opacity-50 transition-all shadow-md shadow-emerald-600/20"
+              className="w-full inline-flex items-center justify-center gap-2 px-5 py-3 rounded-xl text-sm font-bold bg-emerald-600 hover:bg-emerald-700 text-white disabled:opacity-50 transition-all shadow-lg shadow-emerald-600/25"
             >
-              <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-              <span>{isSyncing ? 'Memuat semula...' : 'Muat Semula'}</span>
+              <RefreshCw className={`w-4 h-4 ${isSyncing ? 'animate-spin' : ''}`} />
+              <span>{isSyncing ? 'Memuat semula data...' : 'Muat Semula'}</span>
             </button>
+            <p className="text-[11px] text-slate-400 mt-2">
+              Klik butang di atas untuk menyelaraskan data terkini
+            </p>
           </div>
 
           {/* Result Alert */}
@@ -151,20 +134,16 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
                 <p className="font-semibold">{result.message}</p>
                 {result.timestamp && (
                   <p className="text-[11px] text-emerald-600 dark:text-emerald-400 mt-0.5">
-                    Masa penyegerakan: {result.timestamp}
+                    Masa kemas kini: {result.timestamp}
                   </p>
                 )}
               </div>
             </div>
           )}
-
-          <div className="bg-slate-50 dark:bg-slate-800/50 p-3 rounded-xl border border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 leading-relaxed">
-            💡 <strong>Nota:</strong> Sebarang kemas kini yang anda buat di Google Sheet akan dikemas kini serta-merta ke dalam dashboard setiap kali anda menekan <strong>Muat Semula</strong>.
-          </div>
         </div>
 
         {/* Modal Actions */}
-        <div className="mt-6 flex justify-end gap-3">
+        <div className="mt-5 flex justify-end">
           <button
             onClick={onClose}
             className="px-4 py-2 rounded-xl text-xs font-semibold bg-slate-100 dark:bg-slate-800 text-slate-700 dark:text-slate-300 hover:bg-slate-200 dark:hover:bg-slate-700 transition-colors"

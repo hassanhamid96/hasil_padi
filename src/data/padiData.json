@@ -5,22 +5,22 @@
     "areaRelong": 11.5,
     "areaHectares": 3.3,
     "areaAcres": 8.16,
-    "period": "2020 - 2026",
-    "totalSeasons": 11
+    "period": "2020 – 2026",
+    "totalSeasons": 12
   },
   "allTimeTotals": {
-    "totalGrossRevenue": 291605.29,
-    "totalPaddySales": 224684.12,
-    "totalSubsidy": 66921.17,
-    "totalCost": 125319.8,
-    "totalNetBeforeZakat": 166285.49,
-    "totalZakat": 16657.91,
-    "totalNetAfterZakat": 149921.19,
-    "totalTonnes": 149.06,
-    "totalGundi": 2071.5,
-    "averageYieldPerRelong": 1.178,
-    "averageNetPerSeason": 13629.2,
-    "averageCostPerSeason": 11392.71
+    "totalGrossRevenue": 326171.69,
+    "totalPaddySales": 231991.85,
+    "totalSubsidy": 68262.23,
+    "totalCost": 138242.8,
+    "totalNetBeforeZakat": 187928.89,
+    "totalZakat": 18822.25,
+    "totalNetAfterZakat": 169400.25,
+    "totalTonnes": 166.86,
+    "totalGundi": 2318.8,
+    "averageYieldPerRelong": 1.209,
+    "averageNetPerSeason": 14116.69,
+    "averageCostPerSeason": 11520.23
   },
   "seasons": [
     {
@@ -336,7 +336,7 @@
       ]
     },
     {
-      "id": "feb23",
+      "id": "feb_2023",
       "sheetName": "FEB23 ",
       "name": "FEB 2023",
       "year": 2023,
@@ -421,7 +421,7 @@
       ]
     },
     {
-      "id": "sept23",
+      "id": "sept_2023",
       "sheetName": "SEPT23",
       "name": "SEPT 2023",
       "year": 2023,
@@ -506,7 +506,111 @@
       ]
     },
     {
-      "id": "march24",
+      "id": "anggaran_sept2023",
+      "sheetName": "ANGGARAN SEPT2023",
+      "name": "SEPT 2023",
+      "year": 2023,
+      "season": "September",
+      "seedType": "MR330",
+      "seedPrice": 65,
+      "paddyPrice100kg": 150,
+      "financials": {
+        "subsidy": 7856,
+        "paddySales": 26710.4,
+        "grossRevenue": 34566.4,
+        "cost": 12923,
+        "netBeforeZakat": 21643.4,
+        "zakat": 2164.34,
+        "netAfterZakat": 19479.06,
+        "profitMarginPct": 62.6
+      },
+      "production": {
+        "tonnes": 17.807,
+        "gundi": 247.3,
+        "relong": 11.5,
+        "yieldPerRelong": 1.548
+      },
+      "receipts": [
+        {
+          "resitNo": "RESIT1",
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2410,
+          "potongan": {
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
+          },
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": 1928,
+          "jumlahBayaranRM": null,
+          "subsidiRM": 964
+        },
+        {
+          "resitNo": "RESIT2",
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4010,
+          "potongan": {
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
+          },
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": 3208,
+          "jumlahBayaranRM": null,
+          "subsidiRM": 1604
+        },
+        {
+          "resitNo": "RESIT3",
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 8140,
+          "potongan": {
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
+          },
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": 6512,
+          "jumlahBayaranRM": null,
+          "subsidiRM": 3756
+        },
+        {
+          "resitNo": "RESIT4",
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 5080,
+          "potongan": {
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
+          },
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": 4064,
+          "jumlahBayaranRM": null,
+          "subsidiRM": 2032
+        }
+      ]
+    },
+    {
+      "id": "mar2024",
       "sheetName": "MARCH24",
       "name": "MAC 2024",
       "year": 2024,
@@ -591,7 +695,7 @@
       ]
     },
     {
-      "id": "oct24",
+      "id": "oct2024",
       "sheetName": "OCT24",
       "name": "OKT 2024",
       "year": 2024,
@@ -695,7 +799,7 @@
       ]
     },
     {
-      "id": "march25",
+      "id": "mar2025",
       "sheetName": "MARCH25",
       "name": "MAC 2025",
       "year": 2025,
@@ -818,7 +922,7 @@
       ]
     },
     {
-      "id": "oct25",
+      "id": "oct2025",
       "sheetName": "OCT25",
       "name": "OKT 2025",
       "year": 2025,
@@ -922,7 +1026,7 @@
       ]
     },
     {
-      "id": "mrch26",
+      "id": "march2026",
       "sheetName": "MRCH26",
       "name": "MAC 2026",
       "year": 2026,
@@ -978,8 +1082,8 @@
       "seedPrice": 65,
       "paddyPrice100kg": 150,
       "financials": {
-        "subsidy": 6528,
-        "paddySales": 19584,
+        "subsidy": 13.06,
+        "paddySales": 181.33,
         "grossRevenue": 26112,
         "cost": 14772.5,
         "netBeforeZakat": 11339.5,
@@ -1306,7 +1410,7 @@
       ]
     },
     "2024": {
-      "MAC 2024": [
+      "MAR 2024": [
         {
           "num": "1",
           "item": "PADI BENIH",
@@ -1452,7 +1556,7 @@
           "note": null
         }
       ],
-      "OKT 2024": [
+      "OCTOBER 2024": [
         {
           "num": "1",
           "item": "PADI BENIH",
@@ -1573,7 +1677,7 @@
       ]
     },
     "2025": {
-      "MAC 2025": [
+      "MAR 2025": [
         {
           "num": "1",
           "item": "PADI BENIH",
@@ -1719,7 +1823,7 @@
           "note": null
         }
       ],
-      "OKT 2025": [
+      "OCTOBER 2025": [
         {
           "num": "1",
           "item": "PADI BENIH",
@@ -1876,7 +1980,7 @@
       ]
     },
     "2026": {
-      "MAC 2026": [
+      "MAR 2026": [
         {
           "num": "1",
           "item": "PADI BENIH",
@@ -2040,7 +2144,7 @@
           "note": null
         }
       ],
-      "OKT 2026": [
+      "OCTOBER 2025": [
         {
           "num": "1",
           "item": "PADI BENIH",

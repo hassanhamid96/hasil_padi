@@ -92,7 +92,7 @@ export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpen
                     Laporan Hasil & Kos Penanaman Padi
                   </h1>
                   <span className="inline-flex items-center px-2.5 py-0.5 rounded-full text-xs font-semibold bg-emerald-500/20 text-emerald-300 border border-emerald-400/30">
-                    2020 – 2026
+                    {profile.period}
                   </span>
                 </div>
                 <p className="text-emerald-200/90 text-sm mt-1 flex items-center gap-3 flex-wrap">
@@ -162,7 +162,7 @@ export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpen
         {/* Top Summary Bar */}
         <div className="mt-6 pt-4 border-t border-emerald-700/40 grid grid-cols-2 sm:grid-cols-4 gap-4 text-xs">
           <div className="bg-emerald-950/40 rounded-lg p-3 border border-emerald-700/30">
-            <span className="text-emerald-300/80 block">Jumlah Kasar (11 Musim)</span>
+            <span className="text-emerald-300/80 block">Jumlah Kasar ({profile.totalSeasons} Musim)</span>
             <span className="text-base sm:text-lg font-bold text-white">{formatRM(totals.totalGrossRevenue)}</span>
             <span className="text-[11px] text-emerald-400 block mt-0.5">Padi + Subsidi Kerajaan</span>
           </div>

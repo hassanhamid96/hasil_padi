@@ -44,7 +44,7 @@ export default function DashboardPage() {
     { id: 'harvest', label: 'Hasil & Tuaian', icon: <Wheat className="w-4 h-4" /> },
     { id: 'financials', label: 'Kewangan & Kos', icon: <Coins className="w-4 h-4" /> },
     { id: 'receipts', label: 'Resit Timbangan', icon: <Receipt className="w-4 h-4" /> },
-    { id: 'comparison', label: 'Matriks 11 Musim', icon: <Table className="w-4 h-4" /> },
+    { id: 'comparison', label: 'Matriks Musim', icon: <Table className="w-4 h-4" /> },
     { id: 'simulator', label: 'Kalkulator Simulasi', icon: <Calculator className="w-4 h-4" /> },
   ];
 
@@ -142,7 +142,7 @@ export default function DashboardPage() {
           <div className="flex items-center gap-4 text-[11px]">
             <span>Petani: <strong>{data.farmProfile.farmerName}</strong></span>
             <span>•</span>
-            <span>Tempoh Rekod: 2020 – 2026 (11 Musim)</span>
+            <span>Tempoh Rekod: {data.farmProfile.period} ({data.seasons.length} Musim)</span>
           </div>
         </div>
       </footer>

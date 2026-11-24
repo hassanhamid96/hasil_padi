@@ -77,7 +77,7 @@ export const ComparisonTab: React.FC<ComparisonTabProps> = ({ seasons, totals })
         <div>
           <h3 className="text-lg font-black text-slate-900 dark:text-white flex items-center gap-2">
             <Table className="w-5 h-5 text-emerald-600" />
-            Matriks Perbandingan Prestasi Keseluruhan 11 Musim (2020 – 2026)
+            Matriks Perbandingan Prestasi Keseluruhan ({seasons.length} Musim)
           </h3>
           <p className="text-xs text-slate-500 mt-1">
             Klik pada kepala lajur untuk menyusun jadual mengikut hasil, pendapatan atau margin keuntungan
@@ -233,7 +233,7 @@ export const ComparisonTab: React.FC<ComparisonTabProps> = ({ seasons, totals })
                 <td className="py-3.5 px-4 text-slate-900 dark:text-white uppercase font-black">
                   Jumlah Keseluruhan :
                 </td>
-                <td className="py-3.5 px-3 font-semibold text-slate-500">11 Musim</td>
+                <td className="py-3.5 px-3 font-semibold text-slate-500">{seasons.length} Musim</td>
                 <td className="py-3.5 px-3 text-right font-mono font-normal text-slate-500">-</td>
                 <td className="py-3.5 px-3 text-right font-mono font-black text-amber-600">
                   {formatNumber(totals.totalTonnes, 2)} Tan

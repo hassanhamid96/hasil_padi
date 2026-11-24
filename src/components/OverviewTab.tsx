@@ -66,10 +66,10 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({ totals, seasons, onSel
         <KpiCard
           title="Jumlah Pendapatan Kasar"
           value={formatRM(totals.totalGrossRevenue)}
-          subValue={`11 Musim (${totals.totalTonnes} Tan)`}
+          subValue={`${seasons.length} Musim (${totals.totalTonnes} Tan)`}
           description={`Jualan Padi: ${formatRM(totals.totalPaddySales)} • Subsidi: ${formatRM(totals.totalSubsidy)}`}
           icon={<DollarSign className="w-6 h-6" />}
-          badge="2020 - 2026"
+          badge="Pendapatan Kasar"
           colorTheme="emerald"
         />
 
@@ -316,7 +316,7 @@ export const OverviewTab: React.FC<OverviewTabProps> = ({ totals, seasons, onSel
         <h3 className="text-base font-bold text-slate-900 dark:text-white flex items-center justify-between mb-4">
           <span className="flex items-center gap-2">
             <Calendar className="w-5 h-5 text-emerald-600" />
-            Ringkasan Pantas 11 Musim
+            Ringkasan Pantas {seasons.length} Musim
           </span>
           <span className="text-xs font-normal text-slate-500">
             Klik mana-mana musim untuk lihat butiran resit & kos

@@ -57,7 +57,7 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
 
       setResult({
         type: 'success',
-        message: 'Data berjaya disegerakkan terus daripada Google Sheets!',
+        message: 'Data berjaya dimuat semula terus daripada Google Sheets!',
         timestamp: new Date().toLocaleTimeString('ms-MY', { hour: '2-digit', minute: '2-digit', second: '2-digit' }),
       });
     } catch (err: unknown) {
@@ -129,7 +129,7 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
               className="inline-flex items-center gap-2 px-4 py-2 rounded-xl text-xs font-bold bg-emerald-600 hover:bg-emerald-700 text-white disabled:opacity-50 transition-all shadow-md shadow-emerald-600/20"
             >
               <RefreshCw className={`w-3.5 h-3.5 ${isSyncing ? 'animate-spin' : ''}`} />
-              <span>{isSyncing ? 'Menyegerak...' : 'Segerak Sekarang'}</span>
+              <span>{isSyncing ? 'Memuat semula...' : 'Muat Semula'}</span>
             </button>
           </div>
 
@@ -159,7 +159,7 @@ export const GoogleSheetSyncModal: React.FC<GoogleSheetSyncModalProps> = ({
           )}
 
           <div className="bg-slate-50 dark:bg-slate-800/50 p-3 rounded-xl border border-slate-200 dark:border-slate-800 text-[11px] text-slate-500 leading-relaxed">
-            💡 <strong>Nota:</strong> Sebarang kemas kini yang anda buat di Google Sheet akan dikemas kini serta-merta ke dalam dashboard setiap kali anda menekan <strong>Segerak Sekarang</strong>.
+            💡 <strong>Nota:</strong> Sebarang kemas kini yang anda buat di Google Sheet akan dikemas kini serta-merta ke dalam dashboard setiap kali anda menekan <strong>Muat Semula</strong>.
           </div>
         </div>
 

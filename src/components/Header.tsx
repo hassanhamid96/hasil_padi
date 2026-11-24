@@ -7,7 +7,6 @@ import {
   Sprout, 
   MapPin, 
   User, 
-  Upload, 
   Download, 
   Printer, 
   Layers,
@@ -18,11 +17,10 @@ interface HeaderProps {
   profile: FarmProfile;
   totals: AllTimeTotals;
   seasons: SeasonData[];
-  onOpenUpload: () => void;
   onOpenGoogleSheets: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpenUpload, onOpenGoogleSheets }) => {
+export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpenGoogleSheets }) => {
   const exportToCSV = () => {
     const headers = [
       'Musim',
@@ -128,15 +126,6 @@ export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpen
                 <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
                 <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
               </span>
-            </button>
-
-            <button
-              onClick={onOpenUpload}
-              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium bg-emerald-800/80 hover:bg-emerald-700 text-emerald-100 border border-emerald-600/60 hover:border-emerald-400 transition-all shadow-sm"
-              title="Muat naik fail Excel untuk mengemaskini data"
-            >
-              <Upload className="w-4 h-4 text-emerald-300" />
-              <span>Muat Naik Excel</span>
             </button>
 
             <button

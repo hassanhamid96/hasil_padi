@@ -10,7 +10,6 @@ import { FinancialsTab } from '@/components/FinancialsTab';
 import { ReceiptsTab } from '@/components/ReceiptsTab';
 import { ComparisonTab } from '@/components/ComparisonTab';
 import { SimulatorTab } from '@/components/SimulatorTab';
-import { UploadExcelModal } from '@/components/UploadExcelModal';
 import { GoogleSheetSyncModal } from '@/components/GoogleSheetSyncModal';
 import { 
   BarChart3, 
@@ -28,7 +27,6 @@ export default function DashboardPage() {
   const [data, setData] = useState<PadiDataset>(initialData as unknown as PadiDataset);
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [selectedSeasonId, setSelectedSeasonId] = useState<string>(data.seasons[data.seasons.length - 1]?.id || '');
-  const [isUploadOpen, setIsUploadOpen] = useState<boolean>(false);
   const [isGoogleSheetsOpen, setIsGoogleSheetsOpen] = useState<boolean>(false);
 
   const handleSelectSeasonFromOverview = (seasonId: string) => {
@@ -52,7 +50,6 @@ export default function DashboardPage() {
         profile={data.farmProfile}
         totals={data.allTimeTotals}
         seasons={data.seasons}
-        onOpenUpload={() => setIsUploadOpen(true)}
         onOpenGoogleSheets={() => setIsGoogleSheetsOpen(true)}
       />
 
@@ -143,16 +140,6 @@ export default function DashboardPage() {
           </div>
         </div>
       </footer>
-
-      {/* Upload Modal */}
-      <UploadExcelModal
-        isOpen={isUploadOpen}
-        onClose={() => setIsUploadOpen(false)}
-        onDataLoaded={(newData) => {
-          setData(newData);
-          setIsUploadOpen(false);
-        }}
-      />
 
       {/* Google Sheets Sync Modal */}
       <GoogleSheetSyncModal

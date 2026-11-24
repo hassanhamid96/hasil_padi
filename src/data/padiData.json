@@ -30,13 +30,13 @@
       "year": 2020,
       "season": "Februari",
       "seedType": "MR297",
-      "seedPrice": 37.0,
-      "paddyPrice100kg": 125.0,
+      "seedPrice": 37,
+      "paddyPrice100kg": 125,
       "financials": {
         "subsidy": 5869.15,
-        "paddySales": 20379.0,
+        "paddySales": 20379,
         "grossRevenue": 26248.15,
-        "cost": 8950.0,
+        "cost": 8950,
         "netBeforeZakat": 17298.15,
         "zakat": 1729.82,
         "netAfterZakat": 15568.34,
@@ -44,105 +44,105 @@
       },
       "production": {
         "tonnes": 14.4,
-        "gundi": 200.0,
+        "gundi": 200,
         "relong": 11.5,
         "yieldPerRelong": 1.252
       },
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 9970.0,
-          "beratKeluarKg": 3280.0,
-          "beratTimbanganKg": 6690.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 6690,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 74.33,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 5352.0,
-          "jumlahBayaranRM": 6690.0,
-          "subsidiRM": 1926.72
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 6620.0,
-          "beratKeluarKg": 2550.0,
-          "beratTimbanganKg": 4070.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4070,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 45.22,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 3256.0,
-          "jumlahBayaranRM": 4070.0,
-          "subsidiRM": 1172.16
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 6140.0,
-          "beratKeluarKg": 2560.0,
-          "beratTimbanganKg": 3580.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3580,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 39.78,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 2864.0,
-          "jumlahBayaranRM": 3580.0,
-          "subsidiRM": 1031.04
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 6230.0,
-          "beratKeluarKg": 2570.0,
-          "beratTimbanganKg": 3660.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3660,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 40.67,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 2928.0,
-          "jumlahBayaranRM": 3660.0,
-          "subsidiRM": 1054.08
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT5",
-          "beratMasukKg": 5710.0,
-          "beratKeluarKg": 3270.0,
-          "beratTimbanganKg": 2440.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2440,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 4.0,
-            "kotorPct": 3.0,
-            "wbPct": 22.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 4,
+            "kotorPct": 3,
+            "wbPct": 22
           },
-          "bilGuni": 27.11,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 1903.2,
-          "jumlahBayaranRM": 2379.0,
-          "subsidiRM": 685.15
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -153,13 +153,13 @@
       "year": 2021,
       "season": "Februari",
       "seedType": "MR297",
-      "seedPrice": 37.0,
-      "paddyPrice100kg": 125.0,
+      "seedPrice": 37,
+      "paddyPrice100kg": 125,
       "financials": {
         "subsidy": 5806.08,
-        "paddySales": 20160.0,
+        "paddySales": 20160,
         "grossRevenue": 25966.08,
-        "cost": 10000.0,
+        "cost": 10000,
         "netBeforeZakat": 15966.08,
         "zakat": 1596.61,
         "netAfterZakat": 14369.47,
@@ -167,86 +167,86 @@
       },
       "production": {
         "tonnes": 16.128,
-        "gundi": 224.0,
+        "gundi": 224,
         "relong": 11.5,
         "yieldPerRelong": 1.402
       },
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 6580.0,
-          "beratKeluarKg": 3260.0,
-          "beratTimbanganKg": 3320.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3320,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 36.89,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 2656.0,
-          "jumlahBayaranRM": 3320.0,
-          "subsidiRM": 956.16
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 8730.0,
-          "beratKeluarKg": 3270.0,
-          "beratTimbanganKg": 5460.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 5460,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 60.67,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 4368.0,
-          "jumlahBayaranRM": 5460.0,
-          "subsidiRM": 1572.48
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 5620.0,
-          "beratKeluarKg": 3270.0,
-          "beratTimbanganKg": 2350.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2350,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 26.11,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 1880.0,
-          "jumlahBayaranRM": 2350.0,
-          "subsidiRM": 676.8
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 12540.0,
-          "beratKeluarKg": 3510.0,
-          "beratTimbanganKg": 9030.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 9030,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 100.33,
-          "hargaPer100kg": 125.0,
-          "beratBersihKg": 7224.0,
-          "jumlahBayaranRM": 9030.0,
-          "subsidiRM": 2600.64
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -257,13 +257,13 @@
       "year": 2022,
       "season": "Ogos",
       "seedType": "MR297",
-      "seedPrice": 37.0,
-      "paddyPrice100kg": 128.0,
+      "seedPrice": 37,
+      "paddyPrice100kg": 128,
       "financials": {
         "subsidy": 4708.98,
         "paddySales": 16743.04,
         "grossRevenue": 21452.02,
-        "cost": 9889.0,
+        "cost": 9889,
         "netBeforeZakat": 11563.02,
         "zakat": 1156.3,
         "netAfterZakat": 10406.72,
@@ -271,67 +271,67 @@
       },
       "production": {
         "tonnes": 13.081,
-        "gundi": 183.0,
+        "gundi": 183,
         "relong": 11.5,
         "yieldPerRelong": 1.137
       },
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 5190.0,
-          "beratKeluarKg": 3280.0,
-          "beratTimbanganKg": 1910.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 1910,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 8.0,
-            "wbPct": 25.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 8,
+            "wbPct": 25
           },
-          "bilGuni": 21.22,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 1432.5,
-          "jumlahBayaranRM": 1833.6,
-          "subsidiRM": 515.7
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 11450.0,
-          "beratKeluarKg": 3490.0,
-          "beratTimbanganKg": 7960.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7960,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 88.44,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 6368.0,
-          "jumlahBayaranRM": 8151.04,
-          "subsidiRM": 2292.48
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 10080.0,
-          "beratKeluarKg": 3480.0,
-          "beratTimbanganKg": 6600.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 6600,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 73.33,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 5280.0,
-          "jumlahBayaranRM": 6758.4,
-          "subsidiRM": 1900.8
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -342,13 +342,13 @@
       "year": 2023,
       "season": "Februari",
       "seedType": "MR297",
-      "seedPrice": 37.0,
-      "paddyPrice100kg": 128.0,
+      "seedPrice": 37,
+      "paddyPrice100kg": 128,
       "financials": {
         "subsidy": 5088.96,
         "paddySales": 18094.08,
         "grossRevenue": 23183.04,
-        "cost": 9427.0,
+        "cost": 9427,
         "netBeforeZakat": 13756.04,
         "zakat": 1375.6,
         "netAfterZakat": 12380.44,
@@ -363,60 +363,60 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 11080.0,
-          "beratKeluarKg": 3330.0,
-          "beratTimbanganKg": 7750.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7750,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 86.11,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 6200.0,
-          "jumlahBayaranRM": 7936.0,
-          "subsidiRM": 2232.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 11020.0,
-          "beratKeluarKg": 3510.0,
-          "beratTimbanganKg": 7510.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7510,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 83.44,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 6008.0,
-          "jumlahBayaranRM": 7690.24,
-          "subsidiRM": 2162.88
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 4950.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 2410.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2410,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 26.78,
-          "hargaPer100kg": 128.0,
-          "beratBersihKg": 1928.0,
-          "jumlahBayaranRM": 2467.84,
-          "subsidiRM": 694.08
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -427,14 +427,14 @@
       "year": 2023,
       "season": "September",
       "seedType": "MR330",
-      "seedPrice": 60.0,
-      "paddyPrice100kg": 170.0,
+      "seedPrice": 60,
+      "paddyPrice100kg": 170,
       "financials": {
-        "subsidy": 3312.0,
-        "paddySales": 15640.0,
-        "grossRevenue": 18952.0,
-        "cost": 9427.0,
-        "netBeforeZakat": 9525.0,
+        "subsidy": 3312,
+        "paddySales": 15640,
+        "grossRevenue": 18952,
+        "cost": 9427,
+        "netBeforeZakat": 9525,
         "zakat": 952.5,
         "netAfterZakat": 8572.5,
         "profitMarginPct": 50.3
@@ -448,60 +448,60 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 8620.0,
-          "beratKeluarKg": 3540.0,
-          "beratTimbanganKg": 5080.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 5080,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 56.44,
-          "hargaPer100kg": 170.0,
-          "beratBersihKg": 4064.0,
-          "jumlahBayaranRM": 6908.8,
-          "subsidiRM": 1463.04
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 6560.0,
-          "beratKeluarKg": 2550.0,
-          "beratTimbanganKg": 4010.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4010,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 44.56,
-          "hargaPer100kg": 170.0,
-          "beratBersihKg": 3208.0,
-          "jumlahBayaranRM": 5453.6,
-          "subsidiRM": 1154.88
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 4950.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 2410.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2410,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 26.78,
-          "hargaPer100kg": 170.0,
-          "beratBersihKg": 1928.0,
-          "jumlahBayaranRM": 3277.6,
-          "subsidiRM": 694.08
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -512,12 +512,12 @@
       "year": 2024,
       "season": "Mac",
       "seedType": "MR330",
-      "seedPrice": 55.0,
-      "paddyPrice100kg": 175.0,
+      "seedPrice": 55,
+      "paddyPrice100kg": 175,
       "financials": {
-        "subsidy": 6792.0,
-        "paddySales": 23772.0,
-        "grossRevenue": 30564.0,
+        "subsidy": 6792,
+        "paddySales": 23772,
+        "grossRevenue": 30564,
         "cost": 10974.8,
         "netBeforeZakat": 19589.2,
         "zakat": 1958.92,
@@ -533,60 +533,60 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 10480.0,
-          "beratKeluarKg": 3470.0,
-          "beratTimbanganKg": 7010.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7010,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 77.89,
-          "hargaPer100kg": 140.0,
-          "beratBersihKg": 5608.0,
-          "jumlahBayaranRM": 9814.0,
-          "subsidiRM": 2804.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 5340.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 2800.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2800,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 31.11,
-          "hargaPer100kg": 140.0,
-          "beratBersihKg": 2240.0,
-          "jumlahBayaranRM": 3920.0,
-          "subsidiRM": 1120.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 10630.0,
-          "beratKeluarKg": 3460.0,
-          "beratTimbanganKg": 7170.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7170,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 79.67,
-          "hargaPer100kg": 140.0,
-          "beratBersihKg": 5736.0,
-          "jumlahBayaranRM": 10038.0,
-          "subsidiRM": 2868.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -597,12 +597,12 @@
       "year": 2024,
       "season": "Oktober",
       "seedType": "MR330",
-      "seedPrice": 60.0,
-      "paddyPrice100kg": 180.0,
+      "seedPrice": 60,
+      "paddyPrice100kg": 180,
       "financials": {
-        "subsidy": 6440.0,
-        "paddySales": 23184.0,
-        "grossRevenue": 29624.0,
+        "subsidy": 6440,
+        "paddySales": 23184,
+        "grossRevenue": 29624,
         "cost": 11000.3,
         "netBeforeZakat": 18623.7,
         "zakat": 1862.37,
@@ -618,79 +618,79 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 5700.0,
-          "beratKeluarKg": 3570.0,
-          "beratTimbanganKg": 2130.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2130,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 23.67,
-          "hargaPer100kg": 180.0,
-          "beratBersihKg": 1704.0,
-          "jumlahBayaranRM": 3067.2,
-          "subsidiRM": 852.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 8320.0,
-          "beratKeluarKg": 3540.0,
-          "beratTimbanganKg": 4780.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4780,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 53.11,
-          "hargaPer100kg": 180.0,
-          "beratBersihKg": 3824.0,
-          "jumlahBayaranRM": 6883.2,
-          "subsidiRM": 1912.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 6270.0,
-          "beratKeluarKg": 4050.0,
-          "beratTimbanganKg": 2220.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2220,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 24.67,
-          "hargaPer100kg": 180.0,
-          "beratBersihKg": 1776.0,
-          "jumlahBayaranRM": 3196.8,
-          "subsidiRM": 888.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 10470.0,
-          "beratKeluarKg": 3500.0,
-          "beratTimbanganKg": 6970.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 6970,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 77.44,
-          "hargaPer100kg": 180.0,
-          "beratBersihKg": 5576.0,
-          "jumlahBayaranRM": 10036.8,
-          "subsidiRM": 2788.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -701,12 +701,12 @@
       "year": 2025,
       "season": "Mac",
       "seedType": "MR330",
-      "seedPrice": 65.0,
-      "paddyPrice100kg": 150.0,
+      "seedPrice": 65,
+      "paddyPrice100kg": 150,
       "financials": {
-        "subsidy": 8904.0,
-        "paddySales": 26712.0,
-        "grossRevenue": 35616.0,
+        "subsidy": 8904,
+        "paddySales": 26712,
+        "grossRevenue": 35616,
         "cost": 13784.6,
         "netBeforeZakat": 21831.4,
         "zakat": 2183.14,
@@ -722,98 +722,98 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 13110.0,
-          "beratKeluarKg": 3480.0,
-          "beratTimbanganKg": 9630.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 9630,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 107.0,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 7704.0,
-          "jumlahBayaranRM": 11556.0,
-          "subsidiRM": 3852.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 6430.0,
-          "beratKeluarKg": 3490.0,
-          "beratTimbanganKg": 2940.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2940,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 32.67,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2352.0,
-          "jumlahBayaranRM": 3528.0,
-          "subsidiRM": 1176.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 5440.0,
-          "beratKeluarKg": 2530.0,
-          "beratTimbanganKg": 2910.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2910,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 32.33,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2328.0,
-          "jumlahBayaranRM": 3492.0,
-          "subsidiRM": 1164.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 6620.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 4080.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4080,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 45.33,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 3264.0,
-          "jumlahBayaranRM": 4896.0,
-          "subsidiRM": 1632.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT5",
-          "beratMasukKg": 5250.0,
-          "beratKeluarKg": 2550.0,
-          "beratTimbanganKg": 2700.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2700,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 30.0,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2160.0,
-          "jumlahBayaranRM": 3240.0,
-          "subsidiRM": 1080.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -824,12 +824,12 @@
       "year": 2025,
       "season": "Oktober",
       "seedType": "MR330",
-      "seedPrice": 65.0,
-      "paddyPrice100kg": 150.0,
+      "seedPrice": 65,
+      "paddyPrice100kg": 150,
       "financials": {
-        "subsidy": 6112.0,
-        "paddySales": 18336.0,
-        "grossRevenue": 24448.0,
+        "subsidy": 6112,
+        "paddySales": 18336,
+        "grossRevenue": 24448,
         "cost": 13400.5,
         "netBeforeZakat": 11047.5,
         "zakat": 1104.75,
@@ -845,79 +845,79 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 8420.0,
-          "beratKeluarKg": 3510.0,
-          "beratTimbanganKg": 4910.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4910,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 54.56,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 3928.0,
-          "jumlahBayaranRM": 5892.0,
-          "subsidiRM": 1964.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 8030.0,
-          "beratKeluarKg": 3500.0,
-          "beratTimbanganKg": 4530.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 4530,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 50.33,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 3624.0,
-          "jumlahBayaranRM": 5436.0,
-          "subsidiRM": 1812.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 6220.0,
-          "beratKeluarKg": 2560.0,
-          "beratTimbanganKg": 3660.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3660,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 40.67,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2928.0,
-          "jumlahBayaranRM": 4392.0,
-          "subsidiRM": 1464.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 4720.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 2180.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2180,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 24.22,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 1744.0,
-          "jumlahBayaranRM": 2616.0,
-          "subsidiRM": 872.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -928,12 +928,12 @@
       "year": 2026,
       "season": "Mac",
       "seedType": "MR330",
-      "seedPrice": 65.0,
-      "paddyPrice100kg": 150.0,
+      "seedPrice": 65,
+      "paddyPrice100kg": 150,
       "financials": {
-        "subsidy": 7360.0,
-        "paddySales": 22080.0,
-        "grossRevenue": 29440.0,
+        "subsidy": 7360,
+        "paddySales": 22080,
+        "grossRevenue": 29440,
         "cost": 13694.1,
         "netBeforeZakat": 15745.9,
         "zakat": 1603.95,
@@ -949,22 +949,22 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 18400.0,
+          "beratMasukKg": null,
           "beratKeluarKg": null,
-          "beratTimbanganKg": 18400.0,
+          "beratTimbanganKg": 18400,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 204.44,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 14720.0,
-          "jumlahBayaranRM": 22080.0,
-          "subsidiRM": 7360.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     },
@@ -975,12 +975,12 @@
       "year": 2026,
       "season": "Oktober",
       "seedType": "MR330",
-      "seedPrice": 65.0,
-      "paddyPrice100kg": 150.0,
+      "seedPrice": 65,
+      "paddyPrice100kg": 150,
       "financials": {
-        "subsidy": 6528.0,
-        "paddySales": 19584.0,
-        "grossRevenue": 26112.0,
+        "subsidy": 6528,
+        "paddySales": 19584,
+        "grossRevenue": 26112,
         "cost": 14772.5,
         "netBeforeZakat": 11339.5,
         "zakat": 1133.95,
@@ -996,79 +996,79 @@
       "receipts": [
         {
           "resitNo": "RESIT1",
-          "beratMasukKg": 5870.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 3330.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3330,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 37.0,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2664.0,
-          "jumlahBayaranRM": 3996.0,
-          "subsidiRM": 1332.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT2",
-          "beratMasukKg": 5910.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 3370.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 3370,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 37.44,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 2696.0,
-          "jumlahBayaranRM": 4044.0,
-          "subsidiRM": 1348.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT3",
-          "beratMasukKg": 10740.0,
-          "beratKeluarKg": 3490.0,
-          "beratTimbanganKg": 7250.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 7250,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 80.56,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 5800.0,
-          "jumlahBayaranRM": 8700.0,
-          "subsidiRM": 2900.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         },
         {
           "resitNo": "RESIT4",
-          "beratMasukKg": 4910.0,
-          "beratKeluarKg": 2540.0,
-          "beratTimbanganKg": 2370.0,
+          "beratMasukKg": null,
+          "beratKeluarKg": null,
+          "beratTimbanganKg": 2370,
           "potongan": {
-            "basahPct": 8.0,
-            "hampaPct": 4.0,
-            "hijauPct": 3.0,
-            "rosakPct": 2.0,
-            "kotorPct": 3.0,
-            "wbPct": 20.0
+            "basahPct": 8,
+            "hampaPct": 4,
+            "hijauPct": 3,
+            "rosakPct": 2,
+            "kotorPct": 3,
+            "wbPct": 20
           },
-          "bilGuni": 26.33,
-          "hargaPer100kg": 150.0,
-          "beratBersihKg": 1896.0,
-          "jumlahBayaranRM": 2844.0,
-          "subsidiRM": 948.0
+          "bilGuni": null,
+          "hargaPer100kg": null,
+          "beratBersihKg": null,
+          "jumlahBayaranRM": null,
+          "subsidiRM": null
         }
       ]
     }
@@ -1080,45 +1080,45 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 37.0,
+          "price": 37,
           "unit": "30",
-          "total": 1110.0,
+          "total": 1110,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 90.0,
+          "price": 90,
           "unit": "11.5",
-          "total": 90.0,
+          "total": 90,
           "note": "Sebanyak RM3496"
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 90.0,
+          "price": 90,
           "unit": "LS",
-          "total": 90.0,
+          "total": 90,
           "note": "3 - Perbezaan kos benih padi"
         },
         {
           "num": "4",
           "item": "TABUR",
           "category": "Benih & Semaian",
-          "price": 230.0,
+          "price": 230,
           "unit": "LS",
-          "total": 230.0,
+          "total": 230,
           "note": "RM870"
         },
         {
           "num": "5",
           "item": "SEMAI / SULAM",
           "category": "Benih & Semaian",
-          "price": 8.0,
+          "price": 8,
           "unit": "50",
-          "total": 400.0,
+          "total": 400,
           "note": "15"
         },
         {
@@ -1127,61 +1127,61 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": 5.5,
           "unit": "60",
-          "total": 330.0,
+          "total": 330,
           "note": "8"
         },
         {
           "num": "7",
           "item": "RACUN ULAT",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 65.0,
+          "price": 65,
           "unit": "2",
-          "total": 130.0,
+          "total": 130,
           "note": null
         },
         {
           "num": "8",
           "item": "VITAMIN K",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 65.0,
+          "price": 65,
           "unit": "4",
-          "total": 260.0,
+          "total": 260,
           "note": null
         },
         {
           "num": "9",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 130.0,
+          "price": 130,
           "unit": "11.5",
-          "total": 1495.0,
+          "total": 1495,
           "note": null
         },
         {
           "num": "10",
           "item": "TERAKTOR",
           "category": "Jentera & Penuaian",
-          "price": 1960.0,
+          "price": 1960,
           "unit": "11.5",
-          "total": 1960.0,
+          "total": 1960,
           "note": null
         },
         {
           "num": "11",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 457.0,
+          "price": 457,
           "unit": "LS",
-          "total": 457.0,
+          "total": 457,
           "note": null
         },
         {
           "num": "12",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         }
       ],
@@ -1190,45 +1190,45 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 60.0,
+          "price": 60,
           "unit": "33",
-          "total": 1980.0,
+          "total": 1980,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 99.0,
+          "price": 99,
           "unit": "LS",
-          "total": 99.0,
+          "total": 99,
           "note": "Sebanyak RM3496"
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 99.0,
+          "price": 99,
           "unit": "LS",
-          "total": 99.0,
+          "total": 99,
           "note": "3 - Perbezaan kos benih padi"
         },
         {
           "num": "4",
           "item": "TABUR",
           "category": "Benih & Semaian",
-          "price": 207.0,
+          "price": 207,
           "unit": "LS",
-          "total": 207.0,
+          "total": 207,
           "note": "RM870"
         },
         {
           "num": "5",
           "item": "SEMAI / SULAM",
           "category": "Benih & Semaian",
-          "price": 8.0,
+          "price": 8,
           "unit": "65",
-          "total": 520.0,
+          "total": 520,
           "note": "15"
         },
         {
@@ -1237,70 +1237,70 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": 5.5,
           "unit": "68",
-          "total": 374.0,
+          "total": 374,
           "note": "8"
         },
         {
           "num": "7",
           "item": "RACUN ULAT",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 60.0,
+          "price": 60,
           "unit": "1",
-          "total": 60.0,
+          "total": 60,
           "note": null
         },
         {
           "num": "9",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 130.0,
+          "price": 130,
           "unit": "11.5",
-          "total": 1495.0,
+          "total": 1495,
           "note": null
         },
         {
           "num": "10",
           "item": "TERAKTOR",
           "category": "Jentera & Penuaian",
-          "price": 2875.0,
+          "price": 2875,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "11",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 589.0,
+          "price": 589,
           "unit": "LS",
-          "total": 589.0,
+          "total": 589,
           "note": null
         },
         {
           "num": "12",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "13",
           "item": "BATU",
           "category": "Upah & Infrastruktur",
-          "price": 150.0,
+          "price": 150,
           "unit": "10",
-          "total": 1500.0,
+          "total": 1500,
           "note": null
         },
         {
           "num": "",
           "item": "- Upah Tolak BATU",
           "category": "Upah & Infrastruktur",
-          "price": 25.0,
+          "price": 25,
           "unit": "10",
-          "total": 250.0,
+          "total": 250,
           "note": null
         }
       ]
@@ -1311,36 +1311,36 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 55.0,
+          "price": 55,
           "unit": "30",
-          "total": 1650.0,
+          "total": 1650,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 90.0,
+          "price": 90,
           "unit": "11.5",
-          "total": 90.0,
+          "total": 90,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 90.0,
+          "price": 90,
           "unit": "LS",
-          "total": 90.0,
+          "total": 90,
           "note": null
         },
         {
           "num": "4",
           "item": "TABUR",
           "category": "Benih & Semaian",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
@@ -1349,7 +1349,7 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": 5.5,
           "unit": "52",
-          "total": 286.0,
+          "total": 286,
           "note": null
         },
         {
@@ -1358,52 +1358,52 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": null,
           "unit": "2",
-          "total": 150.0,
+          "total": 150,
           "note": null
         },
         {
           "num": "9",
           "item": "VITAMIN K",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 25.0,
+          "price": 25,
           "unit": "10",
-          "total": 250.0,
+          "total": 250,
           "note": null
         },
         {
           "num": "10",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 130.0,
+          "price": 130,
           "unit": "11.5",
-          "total": 1495.0,
+          "total": 1495,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 90.0,
+          "price": 90,
           "unit": "11.5",
-          "total": 1035.0,
+          "total": 1035,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 80.0,
+          "price": 80,
           "unit": "11.5",
-          "total": 920.0,
+          "total": 920,
           "note": null
         },
         {
           "num": "",
           "item": "iii - Badal",
           "category": "Jentera & Penuaian",
-          "price": 80.0,
+          "price": 80,
           "unit": "11.5",
-          "total": 920.0,
+          "total": 920,
           "note": null
         },
         {
@@ -1412,43 +1412,43 @@
           "category": "Jentera & Penuaian",
           "price": 325.2,
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "12",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 509.0,
+          "price": 509,
           "unit": "LS",
-          "total": 509.0,
+          "total": 509,
           "note": null
         },
         {
           "num": "13",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "14",
           "item": "BATU",
           "category": "Upah & Infrastruktur",
-          "price": 750.0,
+          "price": 750,
           "unit": "",
-          "total": 750.0,
+          "total": 750,
           "note": null
         },
         {
           "num": "",
           "item": "- Upah Tolak BATU",
           "category": "Upah & Infrastruktur",
-          "price": 50.0,
+          "price": 50,
           "unit": "",
-          "total": 50.0,
+          "total": 50,
           "note": null
         }
       ],
@@ -1457,36 +1457,36 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 60.0,
+          "price": 60,
           "unit": "33",
-          "total": 1980.0,
+          "total": 1980,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "33",
-          "total": 99.0,
+          "total": 99,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "33",
-          "total": 99.0,
+          "total": 99,
           "note": null
         },
         {
           "num": "4",
           "item": "TABUR",
           "category": "Benih & Semaian",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
@@ -1495,7 +1495,7 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": 5.5,
           "unit": "38",
-          "total": 209.0,
+          "total": 209,
           "note": null
         },
         {
@@ -1504,43 +1504,43 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": null,
           "unit": "0",
-          "total": 210.0,
+          "total": 210,
           "note": null
         },
         {
           "num": "10",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 180.0,
+          "price": 180,
           "unit": "11.5",
-          "total": 2070.0,
+          "total": 2070,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 100.0,
+          "price": 100,
           "unit": "11.5",
-          "total": 1150.0,
+          "total": 1150,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 80.0,
+          "price": 80,
           "unit": "11.5",
-          "total": 920.0,
+          "total": 920,
           "note": null
         },
         {
           "num": "",
           "item": "iii - Badal",
           "category": "Jentera & Penuaian",
-          "price": 80.0,
+          "price": 80,
           "unit": "11.5",
-          "total": 920.0,
+          "total": 920,
           "note": null
         },
         {
@@ -1549,7 +1549,7 @@
           "category": "Jentera & Penuaian",
           "price": 325.2,
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
@@ -1565,9 +1565,9 @@
           "num": "13",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         }
       ]
@@ -1578,36 +1578,36 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 65.0,
+          "price": 65,
           "unit": "42",
-          "total": 2730.0,
+          "total": 2730,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "42",
-          "total": 126.0,
+          "total": 126,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "42",
-          "total": 126.0,
+          "total": 126,
           "note": null
         },
         {
           "num": "4",
           "item": "TABUR (DRON)",
           "category": "Benih & Semaian",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
@@ -1623,54 +1623,54 @@
           "num": "9",
           "item": "VITAMIN K",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 400.0,
+          "price": 400,
           "unit": "1",
-          "total": 400.0,
+          "total": 400,
           "note": null
         },
         {
           "num": "11",
           "item": "RACUN TENGKORAK",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "7",
-          "total": 280.0,
+          "total": 280,
           "note": null
         },
         {
           "num": "11",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 180.0,
+          "price": 180,
           "unit": "11.5",
-          "total": 2070.0,
+          "total": 2070,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 120.0,
+          "price": 120,
           "unit": "11.5",
-          "total": 1380.0,
+          "total": 1380,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
           "num": "",
           "item": "iii - Badal",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
@@ -1679,14 +1679,14 @@
           "category": "Jentera & Penuaian",
           "price": 325.5,
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "13",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 35.0,
+          "price": 35,
           "unit": "19560",
           "total": 684.6,
           "note": null
@@ -1695,27 +1695,27 @@
           "num": "14",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "16",
           "item": "KHAIRAT SG BARU",
           "category": "Upah & Infrastruktur",
-          "price": 50.0,
+          "price": 50,
           "unit": "1",
-          "total": 50.0,
+          "total": 50,
           "note": null
         },
         {
           "num": "17",
           "item": "MINYAK PAM AIR",
           "category": "Upah & Infrastruktur",
-          "price": 150.0,
+          "price": 150,
           "unit": "1",
-          "total": 150.0,
+          "total": 150,
           "note": null
         }
       ],
@@ -1724,45 +1724,45 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 65.0,
+          "price": 65,
           "unit": "34",
-          "total": 2210.0,
+          "total": 2210,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "34",
-          "total": 102.0,
+          "total": 102,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "34",
-          "total": 102.0,
+          "total": 102,
           "note": null
         },
         {
           "num": "4",
           "item": "TABUR (DRON)",
           "category": "Benih & Semaian",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
           "num": "5",
           "item": "SEMAI / SULAM",
           "category": "Benih & Semaian",
-          "price": 8.0,
+          "price": 8,
           "unit": "62.5",
-          "total": 500.0,
+          "total": 500,
           "note": null
         },
         {
@@ -1778,63 +1778,63 @@
           "num": "9",
           "item": "VITAMIN K",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 100.0,
+          "price": 100,
           "unit": "1",
-          "total": 100.0,
+          "total": 100,
           "note": null
         },
         {
           "num": "10",
           "item": "DRON UNTUK SEMBUR VITAMIN",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "11.5",
-          "total": 460.0,
+          "total": 460,
           "note": null
         },
         {
           "num": "11",
           "item": "RACUN TENGKORAK",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "3",
-          "total": 120.0,
+          "total": 120,
           "note": null
         },
         {
           "num": "11",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 180.0,
+          "price": 180,
           "unit": "11.5",
-          "total": 2070.0,
+          "total": 2070,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 120.0,
+          "price": 120,
           "unit": "11.5",
-          "total": 1380.0,
+          "total": 1380,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
           "num": "",
           "item": "iii - Badal",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
@@ -1843,34 +1843,34 @@
           "category": "Jentera & Penuaian",
           "price": 325.2,
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "13",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 35.0,
+          "price": 35,
           "unit": "15259",
-          "total": 534.0,
+          "total": 534,
           "note": null
         },
         {
           "num": "14",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "17",
           "item": "MINYAK PAM AIR",
           "category": "Upah & Infrastruktur",
-          "price": 100.0,
+          "price": 100,
           "unit": "1",
-          "total": 100.0,
+          "total": 100,
           "note": null
         }
       ]
@@ -1881,27 +1881,27 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 65.0,
+          "price": 65,
           "unit": "32",
-          "total": 2080.0,
+          "total": 2080,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "32",
-          "total": 96.0,
+          "total": 96,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "32",
-          "total": 96.0,
+          "total": 96,
           "note": null
         },
         {
@@ -1917,9 +1917,9 @@
           "num": "5",
           "item": "SEMAI / SULAM",
           "category": "Benih & Semaian",
-          "price": 8.0,
+          "price": 8,
           "unit": "75",
-          "total": 600.0,
+          "total": 600,
           "note": null
         },
         {
@@ -1928,7 +1928,7 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": 5.5,
           "unit": "64",
-          "total": 352.0,
+          "total": 352,
           "note": null
         },
         {
@@ -1937,7 +1937,7 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": null,
           "unit": "",
-          "total": 270.0,
+          "total": 270,
           "note": null
         },
         {
@@ -1946,97 +1946,97 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": null,
           "unit": "1",
-          "total": 560.0,
+          "total": 560,
           "note": null
         },
         {
           "num": "11",
           "item": "RACUN TENGKORAK",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "2",
-          "total": 80.0,
+          "total": 80,
           "note": null
         },
         {
           "num": "11",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 180.0,
+          "price": 180,
           "unit": "11.5",
-          "total": 2070.0,
+          "total": 2070,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 120.0,
+          "price": 120,
           "unit": "11.5",
-          "total": 1380.0,
+          "total": 1380,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
           "num": "",
           "item": "iii - Badal",
           "category": "Jentera & Penuaian",
-          "price": 110.0,
+          "price": 110,
           "unit": "11.5",
-          "total": 1265.0,
+          "total": 1265,
           "note": null
         },
         {
           "num": " *",
           "item": "KUPON RM325.2",
           "category": "Jentera & Penuaian",
-          "price": 322.0,
+          "price": 322,
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "13",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 35.0,
+          "price": 35,
           "unit": "18371.4",
-          "total": 643.0,
+          "total": 643,
           "note": null
         },
         {
           "num": "14",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "16",
           "item": "KHAIRAT SG BARU",
           "category": "Upah & Infrastruktur",
-          "price": 50.0,
+          "price": 50,
           "unit": "1",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "17",
           "item": "MINYAK PAM AIR",
           "category": "Upah & Infrastruktur",
-          "price": 150.0,
+          "price": 150,
           "unit": "1",
-          "total": 0.0,
+          "total": 0,
           "note": null
         }
       ],
@@ -2045,45 +2045,45 @@
           "num": "1",
           "item": "PADI BENIH",
           "category": "Benih & Semaian",
-          "price": 65.0,
+          "price": 65,
           "unit": "24.461",
-          "total": 1590.0,
+          "total": 1590,
           "note": "1 - Benih Padi (BARU) Jenis MR330"
         },
         {
           "num": "2",
           "item": "RENDAM",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "30",
-          "total": 90.0,
+          "total": 90,
           "note": null
         },
         {
           "num": "3",
           "item": "TANGGUNG",
           "category": "Benih & Semaian",
-          "price": 3.0,
+          "price": 3,
           "unit": "30",
-          "total": 90.0,
+          "total": 90,
           "note": null
         },
         {
           "num": "4",
           "item": "TABUR (DRON)",
           "category": "Benih & Semaian",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
           "num": "5",
           "item": "SEMAI / SULAM",
           "category": "Benih & Semaian",
-          "price": 8.0,
+          "price": 8,
           "unit": "175",
-          "total": 1400.0,
+          "total": 1400,
           "note": null
         },
         {
@@ -2101,70 +2101,70 @@
           "category": "Rawatan & Racun/Vitamin",
           "price": null,
           "unit": "0",
-          "total": 790.0,
+          "total": 790,
           "note": "racun ulat sekali dengan vitamin renox"
         },
         {
           "num": "8",
           "item": "RACUN RUMPUT",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "7",
-          "total": 280.0,
+          "total": 280,
           "note": null
         },
         {
           "num": "9",
           "item": "VITAMIN K",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 100.0,
+          "price": 100,
           "unit": "0",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "10",
           "item": "DRON UNTUK SEMBUR VITAMIN",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 20.0,
+          "price": 20,
           "unit": "11.5",
-          "total": 230.0,
+          "total": 230,
           "note": null
         },
         {
           "num": "11",
           "item": "RACUN TENGKORAK",
           "category": "Rawatan & Racun/Vitamin",
-          "price": 40.0,
+          "price": 40,
           "unit": "0",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "11",
           "item": "MESIN PADI",
           "category": "Jentera & Penuaian",
-          "price": 220.0,
+          "price": 220,
           "unit": "11.5",
-          "total": 2530.0,
+          "total": 2530,
           "note": null
         },
         {
           "num": "",
           "item": "I - Beluh",
           "category": "Jentera & Penuaian",
-          "price": 140.0,
+          "price": 140,
           "unit": "11.5",
-          "total": 1610.0,
+          "total": 1610,
           "note": null
         },
         {
           "num": "",
           "item": "ii - Balas",
           "category": "Jentera & Penuaian",
-          "price": 140.0,
+          "price": 140,
           "unit": "11.5",
-          "total": 1610.0,
+          "total": 1610,
           "note": null
         },
         {
@@ -2173,7 +2173,7 @@
           "category": "Jentera & Penuaian",
           "price": null,
           "unit": "11.5",
-          "total": 550.0,
+          "total": 550,
           "note": null
         },
         {
@@ -2182,34 +2182,34 @@
           "category": "Jentera & Penuaian",
           "price": "tiada",
           "unit": "",
-          "total": 0.0,
+          "total": 0,
           "note": null
         },
         {
           "num": "13",
           "item": "LORI",
           "category": "Jentera & Penuaian",
-          "price": 35.0,
+          "price": 35,
           "unit": "",
-          "total": 571.0,
+          "total": 571,
           "note": null
         },
         {
           "num": "14",
           "item": "UPAH",
           "category": "Upah & Infrastruktur",
-          "price": 250.0,
+          "price": 250,
           "unit": "11.5",
-          "total": 2875.0,
+          "total": 2875,
           "note": null
         },
         {
           "num": "17",
           "item": "MINYAK PAM AIR",
           "category": "Upah & Infrastruktur",
-          "price": 100.0,
+          "price": 100,
           "unit": "1",
-          "total": 200.0,
+          "total": 200,
           "note": null
         }
       ]

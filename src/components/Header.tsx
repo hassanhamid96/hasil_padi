@@ -10,7 +10,8 @@ import {
   Upload, 
   Download, 
   Printer, 
-  Layers 
+  Layers,
+  FileSpreadsheet
 } from 'lucide-react';
 
 interface HeaderProps {
@@ -18,9 +19,10 @@ interface HeaderProps {
   totals: AllTimeTotals;
   seasons: SeasonData[];
   onOpenUpload: () => void;
+  onOpenGoogleSheets: () => void;
 }
 
-export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpenUpload }) => {
+export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpenUpload, onOpenGoogleSheets }) => {
   const exportToCSV = () => {
     const headers = [
       'Musim',
@@ -115,6 +117,19 @@ export const Header: React.FC<HeaderProps> = ({ profile, totals, seasons, onOpen
 
           {/* Quick Actions */}
           <div className="flex items-center gap-2.5 flex-wrap print:hidden">
+            <button
+              onClick={onOpenGoogleSheets}
+              className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-bold bg-emerald-600 hover:bg-emerald-500 text-white border border-emerald-400/50 transition-all shadow-md shadow-emerald-950/30 group"
+              title="Segerakkan data secara terus daripada Google Sheets"
+            >
+              <FileSpreadsheet className="w-4 h-4 text-emerald-200 group-hover:rotate-12 transition-transform" />
+              <span>Google Sheets</span>
+              <span className="flex h-2 w-2 relative">
+                <span className="animate-ping absolute inline-flex h-full w-full rounded-full bg-emerald-300 opacity-75"></span>
+                <span className="relative inline-flex rounded-full h-2 w-2 bg-emerald-400"></span>
+              </span>
+            </button>
+
             <button
               onClick={onOpenUpload}
               className="inline-flex items-center gap-2 px-3.5 py-2 rounded-lg text-xs sm:text-sm font-medium bg-emerald-800/80 hover:bg-emerald-700 text-emerald-100 border border-emerald-600/60 hover:border-emerald-400 transition-all shadow-sm"

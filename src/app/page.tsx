@@ -11,6 +11,7 @@ import { ReceiptsTab } from '@/components/ReceiptsTab';
 import { ComparisonTab } from '@/components/ComparisonTab';
 import { SimulatorTab } from '@/components/SimulatorTab';
 import { UploadExcelModal } from '@/components/UploadExcelModal';
+import { GoogleSheetSyncModal } from '@/components/GoogleSheetSyncModal';
 import { 
   BarChart3, 
   Wheat, 
@@ -28,6 +29,10 @@ export default function DashboardPage() {
   const [activeTab, setActiveTab] = useState<TabId>('overview');
   const [selectedSeasonId, setSelectedSeasonId] = useState<string>(data.seasons[data.seasons.length - 1]?.id || '');
   const [isUploadOpen, setIsUploadOpen] = useState<boolean>(false);
+  const [isGoogleSheetsOpen, setIsGoogleSheetsOpen] = useState<boolean>(false);
+  const [googleSheetUrl, setGoogleSheetUrl] = useState<string>(
+    'https://docs.google.com/spreadsheets/d/1J4OYRAR1YQ0VrVUgJkxoFJNqVlKYkvEgXURLBsOpYH4/edit?usp=sharing'
+  );
 
   const handleSelectSeasonFromOverview = (seasonId: string) => {
     setSelectedSeasonId(seasonId);
@@ -51,6 +56,7 @@ export default function DashboardPage() {
         totals={data.allTimeTotals}
         seasons={data.seasons}
         onOpenUpload={() => setIsUploadOpen(true)}
+        onOpenGoogleSheets={() => setIsGoogleSheetsOpen(true)}
       />
 
       {/* Navigation Tab Bar */}
@@ -148,6 +154,17 @@ export default function DashboardPage() {
         onDataLoaded={(newData) => {
           setData(newData);
           setIsUploadOpen(false);
+        }}
+      />
+
+      {/* Google Sheets Sync Modal */}
+      <GoogleSheetSyncModal
+        isOpen={isGoogleSheetsOpen}
+        onClose={() => setIsGoogleSheetsOpen(false)}
+        currentSheetUrl={googleSheetUrl}
+        onUrlChange={(url) => setGoogleSheetUrl(url)}
+        onSyncSuccess={(newDataset) => {
+          setData(newDataset);
         }}
       />
     </div>
